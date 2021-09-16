@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hieuPage2/static/css/main.c37f370a.chunk.css",
+    "main.js": "/hieuPage2/static/js/main.43c2ca75.chunk.js",
+    "main.js.map": "/hieuPage2/static/js/main.43c2ca75.chunk.js.map",
+    "runtime-main.js": "/hieuPage2/static/js/runtime-main.6bb4c05f.js",
+    "runtime-main.js.map": "/hieuPage2/static/js/runtime-main.6bb4c05f.js.map",
+    "static/js/2.03b6c4fe.chunk.js": "/hieuPage2/static/js/2.03b6c4fe.chunk.js",
+    "static/js/2.03b6c4fe.chunk.js.map": "/hieuPage2/static/js/2.03b6c4fe.chunk.js.map",
+    "static/js/3.ab5e6e0b.chunk.js": "/hieuPage2/static/js/3.ab5e6e0b.chunk.js",
+    "static/js/3.ab5e6e0b.chunk.js.map": "/hieuPage2/static/js/3.ab5e6e0b.chunk.js.map",
+    "index.html": "/hieuPage2/index.html",
+    "static/css/main.c37f370a.chunk.css.map": "/hieuPage2/static/css/main.c37f370a.chunk.css.map",
+    "static/js/2.03b6c4fe.chunk.js.LICENSE.txt": "/hieuPage2/static/js/2.03b6c4fe.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hieuPage2/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bb4c05f.js",
+    "static/js/2.03b6c4fe.chunk.js",
+    "static/css/main.c37f370a.chunk.css",
+    "static/js/main.43c2ca75.chunk.js"
+  ]
+}

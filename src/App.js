@@ -56,27 +56,23 @@ function App() {
       {/* Banner */}
 
       <div className="body-banner">
-
         <picture>
           <source
             className="img-banner"
-            media="(min-width:576) and (max-width:768px)"
-            srcset="../img/bird2.png"
+            media="(min-width:576px) and (max-width:768px)"
+            srcset="https://i.ibb.co/GR1bVgJ/bird.png"
           />
           <source
             className="img-banner"
             media="(max-width:576px)"
-            srcset="../img/bird_1x.png"
+            srcset="https://i.ibb.co/YRqXH20/bird-small.png" alt="bird-small"
           />
 
-          <img className="img-banner" src="../img/bird.png" />
+          <img className="img-banner" src="https://i.ibb.co/YRYXTdV/bird-big.png" alt="bird-big" alt="bird" />
         </picture>
-        <div className="content-center">
-          <div className="container">
-
+        <div className="banner-web">
+          <div className="content-center">
             <Title className="title-banner" level={2}>
-
-
               AMAZING PLACES IN AMERICA TO VISIT
             </Title>
             <div className="title-sub">
@@ -89,32 +85,76 @@ function App() {
                 <i class="fa fa-file-text-o" aria-hidden="true"></i>
                 <span>WORLD NEWS</span>
               </div>
-
             </div>
+          </div>
 
-            <div className="avatar-banner">
-              <Avatar
-                size="small"
-                icon={<UserOutlined />}
-                src=".//img/avatar.png"
-              />
-              <span className="sp-1">by Steven Voorhees</span>
-            </div>
+          <div className="avatar-banner">
+            <Avatar
+              size="small"
+              icon={<UserOutlined />}
+              src=".//img/avatar.png"
+            />
+            <span className="sp-1">by Steven Voorhees</span>
+          </div>
 
-            <div className="content-right">
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
-              <Title className="title-right" level={2}>
-                NEXT STORY
-                <span> </span>
+          <div className="content-right">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <Title className="title-right" level={2}>
+              NEXT STORY
+              <span> </span>
+            </Title>
+
+            <Title className="title-right-1" level={2}>
+              Morbi eleifend a libero
+            </Title>
+            <p>
+              Quisque viverra interdum velit, et cursus magna sagittis in. In
+              dui dui.
+            </p>
+          </div>
+        </div>
+        <div className="banner-mobile">
+          <div className="content-center">
+            <div className="container">
+              <Title className="title-banner" level={2}>
+                AMAZING PLACES IN AMERICA TO VISIT
               </Title>
+              <div className="title-sub">
+                <div className="content-banner f-l">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
 
-              <Title className="title-right-1" level={2}>
-                Morbi eleifend a libero
-              </Title>
-              <p>
-                Quisque viverra interdum velit, et cursus magna sagittis in. In dui
-                dui.
-              </p>
+                  <span>TRAVELGUIDE</span>
+                </div>
+                <div className="content-banner f-r">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  <span>WORLD NEWS</span>
+                </div>
+              </div>
+
+              <div className="avatar-banner">
+                <Avatar
+                  size="small"
+                  icon={<UserOutlined />}
+                  src=".//img/avatar.png"
+                />
+                <span className="sp-1">by Steven Voorhees</span>
+              </div>
+
+              <div className="content-right">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <Title className="title-right" level={2}>
+                  NEXT STORY
+                  <span> </span>
+                </Title>
+
+                <Title className="title-right-1" level={2}>
+                  Morbi eleifend a libero
+                </Title>
+                <p>
+                  Quisque viverra interdum velit, et cursus magna sagittis in. In
+                  dui dui.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -288,9 +328,6 @@ function App() {
         </div>
       </div>
       {/* page 3 */}
-
-
-
     </div>
   );
 }

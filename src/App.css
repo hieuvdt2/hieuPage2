@@ -93,14 +93,20 @@
 }
 .App .body-banner {
   width: 100%;
+  height: 600px;
 }
 .body-banner {
   position: relative;
 }
 .body-banner .img-banner {
   width: 100%;
+  height: 100%;
+}
+.banner-mobile {
+  display: none;
 }
 .content-center .title-banner {
+  white-space: nowrap;
   color: #fff;
   font-size: 50px;
   font-weight: bold;
@@ -628,5 +634,11 @@ input::placeholder {
     -webkit-box-orient: vertical;
     overflow: hidden;
     white-space: pre-wrap;
+  }
+  .banner-mobile {
+    display: block;
+  }
+  .banner-web {
+    display: none;
   }
 }

@@ -19,7 +19,17 @@ function App() {
         </Title>
         <div className="header-right">
           <ul className="header-ul">
-            <li>Home</li>
+            <li >
+              Home
+              <div className="dropdown-content">
+                <a href="#">WORLD NEWS</a>
+                <a href="#">TRAVEL</a>
+                <a href="#">TECHNOLOGY</a>
+                <a href="#">CITY</a>
+                <a href="#">CULTURE</a>
+                <a href="#">MORE…</a>
+              </div>
+            </li>
             <li>Discovery</li>
             <li>Photo</li>
             <li>Contact</li>

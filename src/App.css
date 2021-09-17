@@ -642,4 +642,7 @@ input::placeholder {
   .banner-web {
     display: none;
   }
+  .App .body-banner {
+    height: auto;
+  }
 }

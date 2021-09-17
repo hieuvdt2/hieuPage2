@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hieuPage2/static/css/main.f1028bc2.chunk.css",
+    "main.css": "/hieuPage2/static/css/main.b23abdc0.chunk.css",
     "main.js": "/hieuPage2/static/js/main.e362c327.chunk.js",
     "main.js.map": "/hieuPage2/static/js/main.e362c327.chunk.js.map",
     "runtime-main.js": "/hieuPage2/static/js/runtime-main.f59c1fe3.js",
@@ -10,14 +10,14 @@
     "static/js/3.6e5440fd.chunk.js": "/hieuPage2/static/js/3.6e5440fd.chunk.js",
     "static/js/3.6e5440fd.chunk.js.map": "/hieuPage2/static/js/3.6e5440fd.chunk.js.map",
     "index.html": "/hieuPage2/index.html",
-    "static/css/main.f1028bc2.chunk.css.map": "/hieuPage2/static/css/main.f1028bc2.chunk.css.map",
+    "static/css/main.b23abdc0.chunk.css.map": "/hieuPage2/static/css/main.b23abdc0.chunk.css.map",
     "static/js/2.8a5b3756.chunk.js.LICENSE.txt": "/hieuPage2/static/js/2.8a5b3756.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/hieuPage2/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f59c1fe3.js",
     "static/js/2.8a5b3756.chunk.js",
-    "static/css/main.f1028bc2.chunk.css",
+    "static/css/main.b23abdc0.chunk.css",
     "static/js/main.e362c327.chunk.js"
   ]
 }
